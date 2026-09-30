@@ -20,7 +20,53 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #ffeef5;
+  color: #444;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: #ff4fa3;
+}
+
+a {
+  color: #ff4fa3;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 15px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  main {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 8px 0 25px;
+  border: 1px solid #ff69b4;
+  border-radius: 8px;
+  background: white;
 }
